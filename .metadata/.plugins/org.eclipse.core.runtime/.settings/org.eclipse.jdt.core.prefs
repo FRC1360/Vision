@@ -1,0 +1,2 @@
+eclipse.preferences.version=1
+org.eclipse.jdt.core.userLibrary.opencv-3.0.0=<?xml version\="1.0" encoding\="UTF-8"?>\n<userlibrary systemlibrary\="false" version\="2">\n\t<archive path\="/usr/local/Cellar/opencv3/HEAD-4fd00c1_4/share/OpenCV/java/opencv-310.jar">\n\t\t<attributes>\n\t\t\t<attribute name\="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value\="/usr/local/Cellar/opencv3/HEAD-4fd00c1_4/lib"/>\n\t\t</attributes>\n\t</archive>\n</userlibrary>\n

@@ -1,0 +1,20 @@
+16:19:26 **** Incremental Build of configuration Release for project Vision ****
+make all 
+Building file: ../.metadata/.plugins/org.eclipse.cdt.make.core/specs.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF".metadata/.plugins/org.eclipse.cdt.make.core/specs.d" -MT".metadata/.plugins/org.eclipse.cdt.make.core/specs.o" -o ".metadata/.plugins/org.eclipse.cdt.make.core/specs.o" "../.metadata/.plugins/org.eclipse.cdt.make.core/specs.c"
+Finished building: ../.metadata/.plugins/org.eclipse.cdt.make.core/specs.c
+ 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -I/usr/local/Cellar/opencv3/HEAD-4fd00c1_4/include -O3 -Wall -c -fmessage-length=0 -std=c++11 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.cpp"
+Finished building: ../Main.cpp
+ 
+Building target: Vision
+Invoking: MacOS X C++ Linker
+g++ -L/usr/local/Cellar/opencv3/HEAD-4fd00c1_4/lib -o "Vision"  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./Main.o   -lopencv_core -lopencv_videoio -lopencv_features2d -lopencv_video -lopencv_highgui -lopencv_imgproc -lopencv_imgcodecs
+Finished building target: Vision
+ 
+
+16:19:27 Build Finished (took 1s.875ms)
+
