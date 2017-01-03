@@ -44,7 +44,7 @@ all: Vision
 Vision: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: MacOS X C++ Linker'
-	g++ -L/usr/local/Cellar/opencv3/HEAD-4fd00c1_4/lib -o "Vision" $(OBJS) $(USER_OBJS) $(LIBS)
+	g++ -L/usr/local/Cellar/opencv3/HEAD-88ef8c9_4/lib -L/usr/local/Cellar/opencv3/HEAD-88ef8c9_4/lib -o "Vision" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 

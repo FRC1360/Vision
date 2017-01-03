@@ -49,3 +49,62 @@ Invoking: MacOS X C++ Linker
 g++ -L/usr/local/Cellar/opencv3/HEAD-4fd00c1_4/lib -o "Vision"  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./Main.o   -lopencv_core -lopencv_videoio -lopencv_features2d -lopencv_video -lopencv_highgui -lopencv_imgproc -lopencv_imgcodecs
 Finished building target: Vision
  
+17:09:42 **** Incremental Build of configuration Release for project Vision ****
+make all 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -I/usr/local/Cellar/opencv3/HEAD-4fd00c1_4/include -O3 -Wall -c -fmessage-length=0 -std=c++11 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.cpp"
+../Main.cpp:1:10: fatal error: 'opencv2/imgproc.hpp' file not found
+#include <opencv2/imgproc.hpp>
+         ^
+1 error generated.
+make: *** [Main.o] Error 1
+17:21:29 **** Clean-only build of configuration Release for project Vision ****
+make clean 
+rm -rf  ./Main.o  ./Main.d  Vision
+ 
+17:21:29 **** Incremental Build of configuration Release for project Vision ****
+make all 
+Building file: ../.metadata/.plugins/org.eclipse.cdt.make.core/specs.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF".metadata/.plugins/org.eclipse.cdt.make.core/specs.d" -MT".metadata/.plugins/org.eclipse.cdt.make.core/specs.o" -o ".metadata/.plugins/org.eclipse.cdt.make.core/specs.o" "../.metadata/.plugins/org.eclipse.cdt.make.core/specs.c"
+Finished building: ../.metadata/.plugins/org.eclipse.cdt.make.core/specs.c
+ 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -I/usr/local/Cellar/opencv3/HEAD-4fd00c1_4/include -O3 -Wall -c -fmessage-length=0 -std=c++11 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.cpp"
+../Main.cpp:1:10: fatal error: 'opencv2/imgproc.hpp' file not found
+#include <opencv2/imgproc.hpp>
+         ^
+1 error generated.
+make: *** [Main.o] Error 1
+17:23:47 **** Incremental Build of configuration Release for project Vision ****
+make all 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -I/usr/local/Cellar/opencv3/HEAD-4fd00c1_4/include -O3 -Wall -c -fmessage-length=0 -std=c++11 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.cpp"
+../Main.cpp:1:10: fatal error: 'opencv2/imgproc.hpp' file not found
+#include <opencv2/imgproc.hpp>
+         ^
+1 error generated.
+make: *** [Main.o] Error 1
+17:29:32 **** Incremental Build of configuration Release for project Vision ****
+make all 
+Building file: ../.metadata/.plugins/org.eclipse.cdt.make.core/specs.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF".metadata/.plugins/org.eclipse.cdt.make.core/specs.d" -MT".metadata/.plugins/org.eclipse.cdt.make.core/specs.o" -o ".metadata/.plugins/org.eclipse.cdt.make.core/specs.o" "../.metadata/.plugins/org.eclipse.cdt.make.core/specs.c"
+Finished building: ../.metadata/.plugins/org.eclipse.cdt.make.core/specs.c
+ 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -I/usr/local/Cellar/opencv3/HEAD-4fd00c1_4/include -I/usr/local/Cellar/opencv3/HEAD-88ef8c9_4/include -O3 -Wall -c -fmessage-length=0 -std=c++11 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.cpp"
+Finished building: ../Main.cpp
+ 
+Building target: Vision
+Invoking: MacOS X C++ Linker
+g++ -L/usr/local/Cellar/opencv3/HEAD-88ef8c9_4/lib -L/usr/local/Cellar/opencv3/HEAD-88ef8c9_4/lib -o "Vision"  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./Main.o   -lopencv_core -lopencv_videoio -lopencv_features2d -lopencv_video -lopencv_highgui -lopencv_imgproc -lopencv_imgcodecs
+Finished building target: Vision
+ 
+17:29:42 **** Incremental Build of configuration Release for project Vision ****
+make all 
+make: Nothing to be done for `all'.

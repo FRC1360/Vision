@@ -3,8 +3,8 @@
 #include <opencv2/video.hpp>
 #include <string>
 
-using namespace cv;
 using namespace std;
+using namespace cv;
 
 int lowThreshold = 125;
 Mat src = imread("Side Goal.png");
